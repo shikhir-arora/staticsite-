@@ -6,3 +6,10 @@ patch:
   'npm:lodash:20180130':
     - browser-sync > easy-extender > lodash:
         patched: '2018-07-03T07:18:36.939Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-23T08:08:42.805Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-23T08:08:42.805Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-23T08:08:42.805Z'
