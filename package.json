@@ -11,7 +11,8 @@
     "start": "gulp server",
     "lint": "eslint src",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -42,7 +43,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0",
-    "snyk": "^1.88.0"
+    "snyk": "^1.161.1"
   },
   "snyk": true
 }
