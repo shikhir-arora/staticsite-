@@ -42,7 +42,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0",
-    "snyk": "^1.88.0"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
